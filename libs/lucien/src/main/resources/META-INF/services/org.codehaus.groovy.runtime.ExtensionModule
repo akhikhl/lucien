@@ -1,0 +1,3 @@
+moduleName=lucien
+moduleVersion=0.0.1-SNAPSHOT
+extensionClasses=org.akhikhl.lucien.LuceneIndexSearcherMethods,org.akhikhl.lucien.LuceneIndexWriterMethods,org.akhikhl.lucien.LuceneIndexDocumentMethods

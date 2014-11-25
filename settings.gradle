@@ -1,0 +1,8 @@
+rootProject.name = 'lucien'
+
+new File(rootProject.projectDir, 'libs').listFiles({
+  new File(it, 'build.gradle').isFile()
+} as FileFilter).each { File subdir ->
+  include subdir.absolutePath.substring(rootProject.projectDir.absolutePath.length() + 1).replace(File.separator, ':')
+}
+
